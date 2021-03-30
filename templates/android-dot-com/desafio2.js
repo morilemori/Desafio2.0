@@ -4,8 +4,14 @@
 var logo = document.querySelector(".android-logo-image");
 
 //ADICIONANDO UM ESCUTADOR NO ELEMENTO DO BOTÃO VIEW SOURCE, QUE AO SER CLICADO IRÁ COLOCAR A VARIÁVEL E O EVENTO NO DATALAYER:
-logo.addEventListener("click", function(){
-	dataLayer.push({
-	'event': 'eventoTeste',
-	});
-});
+logo.addEventListener('click', function(){
+
+     window.dataLayer = window.dataLayer || [];
+       window.dataLayer.push({
+          'event': 'seuEvento',
+          'eventCategory': 'suaCategoria',
+          'eventAction': 'suaAção',
+          'eventLabel': 'seuLabel'
+  });
+
+})
