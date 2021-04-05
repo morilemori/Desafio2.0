@@ -29,5 +29,33 @@ menu.addEventListener('click', function() {
     'eventLabel': 'seuLabel'
   });
 
-  console.log("colocando dados do navigation container pro dataLayer ")
+  console.log("colocando dados do navigation container pro dataLayer ");
 });
+
+var buscar = document.querySelector(".android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width");
+menu.addEventListener('click', function() {
+
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'event': 'seuEvento',
+    'eventCategory': 'suaCategoria',
+    'eventAction': 'suaAção',
+    'eventLabel': 'seuLabel'
+  });
+
+  console.log("colocando dados do icone de busca pro dataLayer");
+})
+
+var sobre = document.querySelector(".android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect");
+sobre.addEventListener('click', function(){
+
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'event': 'seuEvento',
+    'eventCategory': 'suaCategoria',
+    'eventAction': 'suaAção',
+    'eventLabel': 'seuLabel'
+  });
+
+  console.log("colocando dados do botão pro dataLayer");
+})
