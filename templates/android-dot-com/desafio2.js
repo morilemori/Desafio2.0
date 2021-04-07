@@ -121,7 +121,7 @@ play.addEventListener('click', function() {
 
 /* BOTÃO LUPA */
 var buscar = document.querySelector(".android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width");
-menu.addEventListener('click', function() {
+buscar.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -137,7 +137,7 @@ menu.addEventListener('click', function() {
 
 /* BOTÃO [...] DO HEADER */
 var mais = document.querySelector(".android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect");
-sobre.addEventListener('click', function(){
+mais.addEventListener('click', function(){
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
