@@ -51,8 +51,8 @@ topo.addEventListener('click', function() {
 /* TOPO FIM */
 
 /* MENU RODAPE */
-var versions = document.querySelector(".android-link android-link-menu mdl-typography--font-light");
-versions.addEventListener('click', function() {
+var versao = document.querySelector(".android-link android-link-menu mdl-typography--font-light");
+versao.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'genericEvent',
