@@ -38,6 +38,7 @@ navigation.addEventListener('click', function(){
     'eventLabel': 'navigation'
   });
 });
+
 phone.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -52,9 +53,9 @@ phone.addEventListener('click', function() {
 tablets.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'navigationMenu',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'navigation:menu',
+    'eventAction': 'click:link',
     'eventLabel': 'tablets'
   });
 
@@ -65,9 +66,9 @@ wear.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'navigationMenu',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'navigation:menu',
+    'eventAction': 'click:link',
     'eventLabel': 'wear'
   });
 
@@ -78,9 +79,9 @@ tv.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'navigationMenu',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'navigation:menu',
+    'eventAction': 'click:link',
     'eventLabel': 'tv'
   });
 
@@ -91,9 +92,9 @@ auto.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'navigationMenu',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'navigation:menu',
+    'eventAction': 'click:link',
     'eventLabel': 'auto'
   });
 
@@ -104,9 +105,9 @@ one.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'navigationMenu',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'navigation:menu',
+    'eventAction': 'click:link',
     'eventLabel': 'one'
   });
 
@@ -117,9 +118,9 @@ play.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'navigationMenu',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'navigation:menu',
+    'eventAction': 'click:link',
     'eventLabel': 'play'
   });
 
@@ -134,9 +135,9 @@ buscar.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'headerLupa',
-    'eventAction': 'clickBtn',
+    'event': 'generic:event',
+    'eventCategory': 'header:lupa',
+    'eventAction': 'click:button',
     'eventLabel': 'buscar'
   });
 
@@ -150,9 +151,9 @@ mais.addEventListener('click', function(){
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'headerMais',
-    'eventAction': 'clickBtn',
+    'event': 'generic:event',
+    'eventCategory': 'header:mais',
+    'eventAction': 'click:button',
     'eventLabel': 'mais'
   });
 

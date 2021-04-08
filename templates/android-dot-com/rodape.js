@@ -88,9 +88,9 @@ var privacyPolicy = document.querySelector(".android-link-mdl-typography--font-l
 privacyPolicy.addEventListener('click', function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'menuRodape',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'menu:rodape',
+    'eventAction': 'click:link',
     'eventLabel': 'privacyPolicy'
   });
 });
@@ -102,9 +102,9 @@ viewSource.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || []:
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'botaoVermelho',
-    'eventAction': 'clickBtn',
+    'event': 'generic:event',
+    'eventCategory': 'botao:vermelho',
+    'eventAction': 'click:button',
     'eventLabel': 'viewSource'
   });
 });

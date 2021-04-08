@@ -3,9 +3,9 @@ var playStore = document.querySelector(".mdl-typography--font-regular-mdl-typogr
 playStore.addEventListener("click", function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'meioPlayStore',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'meio:playStore',
+    'eventAction': 'click:link',
     'eventLabel': 'playStore'
   });
 });
@@ -16,9 +16,9 @@ var customise = document.querySelector(".android-link-mdl-typography--font-light
 customise.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'meioCustomise',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'meio:customise',
+    'eventAction': 'click:link',
     'eventLabel': 'customise'
   });
 });
@@ -35,9 +35,9 @@ var moreInfoFindApps = moreInfo[3];
 moreInfoSwitch = addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'meioMoreInfo',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'meio:moreInfo',
+    'eventAction': 'click:link',
     'eventLabel': 'switch'
   });
 });
@@ -45,9 +45,9 @@ moreInfoSwitch = addEventListener('click', function() {
 moreInfoAndroidify = addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'meioMoreInfo',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'meio:moreInfo',
+    'eventAction': 'click:link',
     'eventLabel': 'androidify'
   });
 });
@@ -55,9 +55,9 @@ moreInfoAndroidify = addEventListener('click', function() {
 moreInfoDownload = addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'meioMoreInfo',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'meio:moreInfo',
+    'eventAction': 'click:link',
     'eventLabel': 'download'
   });
 });
@@ -65,9 +65,9 @@ moreInfoDownload = addEventListener('click', function() {
 moreInfoFindApps = addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'meioMoreInfo',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'meio:moreInfo',
+    'eventAction': 'click:link',
     'eventLabel': 'findApps'
   });
 });

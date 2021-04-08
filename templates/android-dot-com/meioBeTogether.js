@@ -4,9 +4,9 @@ var boneco = document.querySelector(".logo-font-android-create-character");
 boneco.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'meioBoneco',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'meio:boneco',
+    'eventAction': 'click:link',
     'eventLabel': 'boneco'
   });
 });
@@ -17,9 +17,9 @@ var bonecoBotao = document.querySelector(".android-fab-mdl-button-mdl-button--co
 bonecoBotao.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'meioBoneco',
-    'eventAction': 'clickBtn',
+    'event': 'generic:event',
+    'eventCategory': 'meio:boneco',
+    'eventAction': 'click:button',
     'eventLabel': 'bonecoBotao'
   });
 });
