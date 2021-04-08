@@ -100,7 +100,7 @@ privacyPolicy.addEventListener('click', function(){
 var viewSource = document.querySelector(".mdl-button-mdl-js-button-mdl-button--raised-mdl-js-ripple-effect-mdl-color--accent-mdl-color-text--accent-contrast");
 viewSource.addEventListener('click', function() {
 
-  window.dataLayer = window.dataLayer || []
+  window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
     'eventCategory': 'botao:vermelho',
