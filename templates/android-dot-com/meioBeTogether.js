@@ -13,7 +13,7 @@ boneco.addEventListener('click', function() {
 /* MEIO BONECO ANDROID LINK FIM */
 
 /* MEIO BONECO ANDROID BOTAO */
-var bonecoBotao = document.querySelector(".android-fab-mdl-button-mdl-button--colored mdl-js-button-mdl-button--fab mdl-js-ripple-effect");
+var bonecoBotao = document.querySelector(".android-fab-mdl-button-mdl-button--colored-mdl-js-button-mdl-button--fab-mdl-js-ripple-effect");
 bonecoBotao.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({

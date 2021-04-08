@@ -51,7 +51,7 @@ topo.addEventListener('click', function() {
 /* TOPO FIM */
 
 /* MENU RODAPE */
-var versao = document.querySelector(".android-link android-link-menu mdl-typography--font-light");
+var versao = document.querySelector(".android-link-android-link-menu-mdl-typography--font-light");
 versao.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -62,7 +62,7 @@ versao.addEventListener('click', function() {
   });
 });
 
-var forDevelopers = document.querySelector(".android-link android-link-menu mdl-typography--font-light");
+var forDevelopers = document.querySelector(".android-link-android-link-menu-mdl-typography--font-light");
 forDevelopers.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({

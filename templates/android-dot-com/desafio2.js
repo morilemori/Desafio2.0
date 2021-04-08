@@ -20,16 +20,16 @@ logo.addEventListener('click', function(){
 /*FIM DO LOGO*/
 
 /*CONTAINER NAVIGATION*/
-var navigation = document.querySelectorAll(".mdl-navigation__link-mdl-typography--text-uppercase");
-var phone = navigation[0];
-var tablets = navigation[1];
-var wear = navigation[2];
-var tv= navigation[3];
-var auto = navigation[4];
-var one = navigation[5];
-var play = navigation[6];
+var menuHeader = document.querySelectorAll(".mdl-navigation__link-mdl-typography--text-uppercase");
+var phone = menuHeader[0];
+var tablets = menuHeader[1];
+var wear = menuHeader[2];
+var tv= menuHeader[3];
+var auto = menuHeader[4];
+var one = menuHeader[5];
+var play = menuHeader[6];
 
-navigation.addEventListener('click', function(){
+menuHeader.addEventListener('click', function(){
   window.dataLayer = window.dataLayer ||[];
   window.dataLayer.push({
     'event': 'generic:event',
