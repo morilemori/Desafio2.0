@@ -20,7 +20,7 @@ logo.addEventListener('click', function(){
 /*FIM DO LOGO*/
 
 /*CONTAINER NAVIGATION*/
-var menuHeader = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase");
+/*var menuHeader = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase");
 var phone = menuHeader[0];
 var tablets = menuHeader[1];
 var wear = menuHeader[2];
@@ -37,8 +37,10 @@ menuHeader.addEventListener('click', function(){
     'eventAction': 'click:link',
     'eventLabel': 'navigation'
   });
-});
+}); 
+*/
 
+var phone = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase")[0];
 phone.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -50,6 +52,7 @@ phone.addEventListener('click', function() {
   console.log("colocando dados de container>avigation>phone pro dataLayer");
 });
 
+var tablets = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase")[1];
 tablets.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -62,6 +65,7 @@ tablets.addEventListener('click', function() {
   console.log("colocando dados de navigation>tablets pro dataLayer");
 });
 
+var wear = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase")[2];
 wear.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
@@ -75,6 +79,7 @@ wear.addEventListener('click', function() {
   console.log("colocando dados de navigation>wear pro dataLayer");
 });
 
+var tv = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase")[3];
 tv.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
@@ -88,6 +93,7 @@ tv.addEventListener('click', function() {
   console.log("colocando dados de navigation>tv pro dataLayer");
 });
 
+var auto = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase")[4];
 auto.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
@@ -101,6 +107,7 @@ auto.addEventListener('click', function() {
   console.log("colocando dados de navigation>auto pro dataLayer");
 });
 
+var one = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase")[5];
 one.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
@@ -114,6 +121,7 @@ one.addEventListener('click', function() {
   console.log("colocando dados de navigation>one pro dataLayer");
 });
 
+var play = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase")[6];
 play.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
@@ -130,7 +138,7 @@ play.addEventListener('click', function() {
 /* FIM NAVIGATION MENU */
 
 /* BOTÃO LUPA */
-var buscar = document.querySelector(".mdl-button.mdl-js-button.mdl-button--icon");
+var buscar = document.querySelector(".android-search-box.mdl-textfield.mdl-js-textfield.mdl-textfield--expandable.mdl-textfield--floating-label.mdl-textfield--align-right.mdl-textfield--full-width");
 buscar.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
@@ -146,7 +154,7 @@ buscar.addEventListener('click', function() {
 /* FIM DO BOTÃO LUPA */
 
 /* BOTÃO [...] DO HEADER */
-var mais = document.querySelector("more-button");
+var mais = document.querySelector(".android-more-button.mdl-button.mdl-js-button.mdl-button--icon.mdl-js-ripple-effect");
 mais.addEventListener('click', function(){
 
   window.dataLayer = window.dataLayer || [];
