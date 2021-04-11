@@ -26,7 +26,7 @@ customise.addEventListener('click', function(){
 
 /* MEIO MORE INFO */
 
-var moreInfoSwitch = document.querySelector(".mdl-card__actions")[0];
+var moreInfoSwitch = document.querySelectorAll(".mdl-card__actions")[0];
 moreInfoSwitch.addEventListener("click", function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -37,7 +37,7 @@ moreInfoSwitch.addEventListener("click", function() {
   });
 });
 
-var moreInfoAndroidify = document.querySelector(".mdl-card__actions")[1];
+var moreInfoAndroidify = document.querySelectorAll(".mdl-card__actions")[1];
 moreInfoAndroidify.addEventListener("click", function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -48,7 +48,7 @@ moreInfoAndroidify.addEventListener("click", function() {
   });
 });
 
-var moreInfoDownload = document.querySelector(".mdl-card__actions")[2];
+var moreInfoDownload = document.querySelectorAll(".mdl-card__actions")[2];
 moreInfoDownload.addEventListener("click", function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -59,7 +59,7 @@ moreInfoDownload.addEventListener("click", function() {
   });
 });
 
-var moreInfoFindApps = document.querySelector(".mdl-card__actions")[3];
+var moreInfoFindApps = document.querySelectorAll(".mdl-card__actions")[3];
 moreInfoFindApps.addEventListener("click", function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
