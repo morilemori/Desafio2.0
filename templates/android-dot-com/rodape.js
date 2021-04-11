@@ -43,7 +43,7 @@ img3.addEventListener('click', function() {
 /* IMAGENS RODAPE FIM */
 
 /* LINK PARA O TOPO DA PAGINA */
-var topo = document.querySelector(".mdl-typography--font-light");
+var topo = document.querySelector("#developers-dropdown");
 topo.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -78,7 +78,7 @@ forDevelopers.addEventListener('click', function() {
   });
 });
 
-var blog = document.querySelector(".android-link-mdl-typography--font-light")[1];
+var blog = document.querySelector("#blog")[1];
 blog.addEventListener('click',function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -89,7 +89,7 @@ blog.addEventListener('click',function(){
   });
 });
 
-var privacyPolicy = document.querySelector(".android-link-mdl-typography--font-light")[2];
+var privacyPolicy = document.querySelector("#privacyPolicy");
 privacyPolicy.addEventListener('click', function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -102,7 +102,7 @@ privacyPolicy.addEventListener('click', function(){
 /* MENU RODAPE FIM */
 
 /* BOTÃO VIEW SOURCE */
-var viewSource = document.querySelector(".view-source");
+var viewSource = document.querySelector("#view-source");
 viewSource.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
