@@ -20,7 +20,7 @@ logo.addEventListener('click', function(){
 /*FIM DO LOGO*/
 
 /*CONTAINER NAVIGATION*/
-var menuHeader = document.querySelectorAll(".mdl-navigation__link-mdl-typography--text-uppercase");
+var menuHeader = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase");
 var phone = menuHeader[0];
 var tablets = menuHeader[1];
 var wear = menuHeader[2];
@@ -130,7 +130,7 @@ play.addEventListener('click', function() {
 /* FIM NAVIGATION MENU */
 
 /* BOTÃO LUPA */
-var buscar = document.querySelector(".android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width");
+var buscar = document.querySelector(".mdl-button.mdl-js-button.mdl-button--icon");
 buscar.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
@@ -146,7 +146,7 @@ buscar.addEventListener('click', function() {
 /* FIM DO BOTÃO LUPA */
 
 /* BOTÃO [...] DO HEADER */
-var mais = document.querySelector(".android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect");
+var mais = document.querySelector("more-button");
 mais.addEventListener('click', function(){
 
   window.dataLayer = window.dataLayer || [];
