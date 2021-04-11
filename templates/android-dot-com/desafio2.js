@@ -10,7 +10,7 @@ logo.addEventListener('click', function(){
      window.dataLayer = window.dataLayer || [];
        window.dataLayer.push({
           'event': 'generic:event',
-          'eventCategory': 'header:logo',
+          'eventCategory': 'android:header',
           'eventAction': 'click:img',
           'eventLabel': 'logo'
   });
@@ -45,8 +45,8 @@ phone.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'navigation:menu',
-    'eventAction': 'click:link',
+    'eventCategory': 'android:header',
+    'eventAction': 'click:header:menu',
     'eventLabel': 'phone'
   });
   console.log("colocando dados de container>avigation>phone pro dataLayer");
@@ -57,8 +57,8 @@ tablets.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'navigation:menu',
-    'eventAction': 'click:link',
+    'eventCategory': 'android:header',
+    'eventAction': 'click:header:menu',
     'eventLabel': 'tablets'
   });
 
@@ -71,8 +71,8 @@ wear.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'navigation:menu',
-    'eventAction': 'click:link',
+    'eventCategory': 'android:header',
+    'eventAction': 'click:header:menu',
     'eventLabel': 'wear'
   });
 
@@ -85,8 +85,8 @@ tv.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'navigation:menu',
-    'eventAction': 'click:link',
+    'eventCategory': 'android:header',
+    'eventAction': 'click:header:menu',
     'eventLabel': 'tv'
   });
 
@@ -99,8 +99,8 @@ auto.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'navigation:menu',
-    'eventAction': 'click:link',
+    'eventCategory': 'android:header',
+    'eventAction': 'click:header:menu',
     'eventLabel': 'auto'
   });
 
@@ -113,8 +113,8 @@ one.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'navigation:menu',
-    'eventAction': 'click:link',
+    'eventCategory': 'android:header',
+    'eventAction': 'click:header:menu',
     'eventLabel': 'one'
   });
 
@@ -127,8 +127,8 @@ play.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'navigation:menu',
-    'eventAction': 'click:link',
+    'eventCategory': 'android:header',
+    'eventAction': 'click:header:menu',
     'eventLabel': 'play'
   });
 
@@ -144,8 +144,8 @@ buscar.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'header:lupa',
-    'eventAction': 'click:button',
+    'eventCategory': 'android:header',
+    'eventAction': 'click:header:menu',
     'eventLabel': 'buscar'
   });
 
@@ -160,8 +160,8 @@ mais.addEventListener('click', function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'header:mais',
-    'eventAction': 'click:button',
+    'eventCategory': 'android:header',
+    'eventAction': 'click:header:menu',
     'eventLabel': 'mais'
   });
 

@@ -1,26 +1,26 @@
 /* MEIO {BONECO ANDROID LINK} */
 // DUVIDA EM COMO REPRESENTAR A CLASSE (LINK CREATE CHAR): REPRESENTAR COMO $0?
-var boneco = document.querySelector(".logo-font-android-create-character");
-boneco.addEventListener('click', function() {
+var beTogether = document.querySelector(".logo-font-android-create-character");
+beTogether.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'meio:boneco',
+    'eventCategory': 'android:be-together-not-the-same',
     'eventAction': 'click:link',
-    'eventLabel': 'boneco'
+    'eventLabel': 'create-your-android-character'
   });
 });
 /* MEIO BONECO ANDROID LINK FIM */
 
 /* MEIO BONECO ANDROID BOTAO */
-var bonecoBotao = document.querySelector(".android-fab-mdl-button-mdl-button--colored-mdl-js-button-mdl-button--fab-mdl-js-ripple-effect");
-bonecoBotao.addEventListener('click', function() {
+var beTogetherButtom = document.querySelector(".android-fab-mdl-button-mdl-button--colored-mdl-js-button-mdl-button--fab-mdl-js-ripple-effect");
+beTogetherButtom.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'meio:boneco',
+    'eventCategory': 'android:be-together-not-the-same',
     'eventAction': 'click:button',
-    'eventLabel': 'bonecoBotao'
+    'eventLabel': 'beTogetherButtom'
   });
 });
 /* MEIO BONECO ANDROID BOTAO FIM*/

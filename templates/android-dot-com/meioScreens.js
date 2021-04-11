@@ -6,7 +6,7 @@ screensWear.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'meio:screens',
+    'eventCategory': 'android:screens',
     'eventAction': 'click:img',
     'eventLabel': 'wear'
   });
@@ -17,7 +17,7 @@ screensPhone.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'meio:screens',
+    'eventCategory': 'android:screens',
     'eventAction': 'click:img',
     'eventLabel': 'phone'
   });
@@ -28,7 +28,7 @@ screensTablets.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'meio;screens',
+    'eventCategory': 'android:screens',
     'eventAction': 'click:img',
     'eventLabel': 'tablets'
   });
@@ -39,7 +39,7 @@ screensTv.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'meio:screens',
+    'eventCategory': 'android:screens',
     'eventAction': 'click:img',
     'eventLabel': 'tv'
   });
@@ -50,7 +50,7 @@ screensAuto.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'meio:screens',
+    'eventCategory': 'android:screens',
     'eventAction': 'click:img',
     'eventLabel': 'auto'
   });

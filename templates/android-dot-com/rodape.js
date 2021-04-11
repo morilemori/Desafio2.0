@@ -1,37 +1,42 @@
 
 
 /* IMAGENS DE RODAPE */
+/*
 var imagensRodape = document.querySelectorAll(".mdl-mega-footer--social-btn");
 var img1 = imagensRodape[0];
 var img2 = imagensRodape[1];
 var img3 = imagensRodape[2];
+*/
 
+var img1 = document.querySelectorAll(".mdl-mega-footer--social-btn")[0];
 img1.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-       'event': 'genericEvent',
-       'eventCategory': 'imagemRodape',
-       'eventAction': 'clickImg',
+       'event': 'generic:event',
+       'eventCategory': 'android:footer',
+       'eventAction': 'click:img',
        'eventLabel': 'img1'
      });
 });
 
+var img2 = document.querySelectorAll('.mdl-mega-footer--social-btn')[1];
 img2.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'imagemRodape',
-    'eventAction': 'clickImg',
+    'event': 'generic:event',
+    'eventCategory': 'android:footer',
+    'eventAction': 'click:img',
     'eventLabel': 'img2'
   });
 });
 
+var img3 = document.querySelectorAll('.mdl-mega-footer--social-btn')[2];
 img3.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'genericEvent',
-    'eventCategory': 'imagemRodape',
-    'eventAction': 'clickImg',
+    'eventCategory': 'android:footer',
+    'eventAction': 'click:img',
     'eventLabel': 'img3'
   });
 });
@@ -42,54 +47,54 @@ var topo = document.querySelector(".mdl-typography--font-light");
 topo.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'linkTopo',
-    'eventAction': 'clickLink',
-    'eventLabel': 'topo'
+    'event': 'generic:event',
+    'eventCategory': 'android:footer',
+    'eventAction': 'click:link',
+    'eventLabel': 'back-to-top'
   });
 });
 /* TOPO FIM */
 
 /* MENU RODAPE */
-var versao = document.querySelector(".android-link-android-link-menu-mdl-typography--font-light");
+var versao = document.querySelector(".android-link-android-link-menu-mdl-typography--font-light")[0];
 versao.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'menuRodape',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'android:footer:menu',
+    'eventAction': 'click:link',
     'eventLabel': 'versions'
   });
 });
 
-var forDevelopers = document.querySelector(".android-link-android-link-menu-mdl-typography--font-light");
+var forDevelopers = document.querySelector(".android-link-android-link-menu-mdl-typography--font-light")[1];
 forDevelopers.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'menuRodape',
-    'eventAction': 'clickLink',
-    'eventLabel': 'forDevelopers'
+    'event': 'generic:event',
+    'eventCategory': 'android:footer:menu',
+    'eventAction': 'click:link',
+    'eventLabel': 'for-developers'
   });
 });
 
-var blog = document.querySelector(".android-link-mdl-typography--font-light");
+var blog = document.querySelector(".android-link-mdl-typography--font-light")[1];
 blog.addEventListener('click',function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'genericEvent',
-    'eventCategory': 'menuRodape',
-    'eventAction': 'clickLink',
+    'event': 'generic:event',
+    'eventCategory': 'android:footer:menu',
+    'eventAction': 'click:link',
     'eventLabel': 'blog'
   });
 });
 
-var privacyPolicy = document.querySelector(".android-link-mdl-typography--font-light");
+var privacyPolicy = document.querySelector(".android-link-mdl-typography--font-light")[2];
 privacyPolicy.addEventListener('click', function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'menu:rodape',
+    'eventCategory': 'android:footer:menu',
     'eventAction': 'click:link',
     'eventLabel': 'privacyPolicy'
   });
@@ -97,13 +102,13 @@ privacyPolicy.addEventListener('click', function(){
 /* MENU RODAPE FIM */
 
 /* BOTÃO VIEW SOURCE */
-var viewSource = document.querySelector(".mdl-button-mdl-js-button-mdl-button--raised-mdl-js-ripple-effect-mdl-color--accent-mdl-color-text--accent-contrast");
+var viewSource = document.querySelector(".view-source");
 viewSource.addEventListener('click', function() {
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
-    'eventCategory': 'botao:vermelho',
+    'eventCategory': 'android:float-buttom',
     'eventAction': 'click:button',
     'eventLabel': 'viewSource'
   });
