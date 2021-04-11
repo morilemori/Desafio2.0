@@ -43,7 +43,7 @@ img3.addEventListener('click', function() {
 /* IMAGENS RODAPE FIM */
 
 /* LINK PARA O TOPO DA PAGINA */
-var topo = document.querySelector("#developers-dropdown");
+var topo = document.querySelector("#topo");
 topo.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -56,7 +56,7 @@ topo.addEventListener('click', function() {
 /* TOPO FIM */
 
 /* MENU RODAPE */
-var versao = document.querySelector(".android-link-android-link-menu-mdl-typography--font-light")[0];
+var versao = document.querySelector(".android-link.android-link-menu.mdl-typography--font-light")[0];
 versao.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -67,7 +67,7 @@ versao.addEventListener('click', function() {
   });
 });
 
-var forDevelopers = document.querySelector(".android-link-android-link-menu-mdl-typography--font-light")[1];
+var forDevelopers = document.querySelector(".android-link.android-link-menu.mdl-typography--font-light")[1];
 forDevelopers.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -78,7 +78,7 @@ forDevelopers.addEventListener('click', function() {
   });
 });
 
-var blog = document.querySelector("#blog")[1];
+var blog = document.querySelector("#blog");
 blog.addEventListener('click',function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
