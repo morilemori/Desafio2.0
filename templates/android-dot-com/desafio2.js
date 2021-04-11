@@ -19,26 +19,7 @@ logo.addEventListener('click', function(){
 });
 /*FIM DO LOGO*/
 
-/*CONTAINER NAVIGATION*/
-/*var menuHeader = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase");
-var phone = menuHeader[0];
-var tablets = menuHeader[1];
-var wear = menuHeader[2];
-var tv= menuHeader[3];
-var auto = menuHeader[4];
-var one = menuHeader[5];
-var play = menuHeader[6];
-
-menuHeader.addEventListener('click', function(){
-  window.dataLayer = window.dataLayer ||[];
-  window.dataLayer.push({
-    'event': 'generic:event',
-    'eventCategory': 'navigation:menu',
-    'eventAction': 'click:link',
-    'eventLabel': 'navigation'
-  });
-}); 
-*/
+/* MENU HEADER*/
 
 var phone = document.querySelectorAll(".mdl-navigation__link.mdl-typography--text-uppercase")[0];
 phone.addEventListener('click', function() {
@@ -135,7 +116,7 @@ play.addEventListener('click', function() {
   console.log("colocando dados de navigation>play pro dataLayer");
 });
 
-/* FIM NAVIGATION MENU */
+/* FIM MENU HEADER */
 
 /* BOTÃO LUPA */
 var buscar = document.querySelector(".android-search-box.mdl-textfield.mdl-js-textfield.mdl-textfield--expandable.mdl-textfield--floating-label.mdl-textfield--align-right.mdl-textfield--full-width");

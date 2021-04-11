@@ -1,6 +1,6 @@
 /* MEIO NEWS ON PLAYSTORE */
 var playStore = document.querySelector(".mdl-typography--font-regular.mdl-typography--text-uppercase.android-alt-link");
-playStore.addEventListener("click", function() {
+playStore.addEventListener("click", function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
@@ -13,7 +13,7 @@ playStore.addEventListener("click", function() {
 
 /* MEIO CUSTOMISE */
 var customise = document.querySelector(".android-link.mdl-typography--font-light")[0];
-customise.addEventListener('click', function() {
+customise.addEventListener('click', function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
@@ -33,7 +33,7 @@ var moreInfoDownload = moreInfo[2];
 var moreInfoFindApps = moreInfo[3];
 */
 
-var moreInfoSwitch = document.querySelector('.mdl-cell.mdl-cell--3-col.mdl-cell--4-col-tablet.mdl-cell--4-col-phone.mdl-card mdl-shadow--3dp')[0]
+var moreInfoSwitch = document.querySelector('.mdl-card__actions')[0]
 moreInfoSwitch = addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -44,7 +44,7 @@ moreInfoSwitch = addEventListener('click', function() {
   });
 });
 
-var moreInfoAndroidify = document.querySelector('.mdl-cell.mdl-cell--3-col.mdl-cell--4-col-tablet.mdl-cell--4-col-phone.mdl-card mdl-shadow--3dp')[1]
+var moreInfoAndroidify = document.querySelector('.mdl-card__actions')[1]
 moreInfoAndroidify = addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -55,7 +55,7 @@ moreInfoAndroidify = addEventListener('click', function() {
   });
 });
 
-var moreInfoDownload = document.querySelector('.mdl-cell.mdl-cell--3-col.mdl-cell--4-col-tablet.mdl-cell--4-col-phone.mdl-card mdl-shadow--3dp')[2]
+var moreInfoDownload = document.querySelector('.mdl-card__actions')[2]
 moreInfoDownload = addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -66,7 +66,7 @@ moreInfoDownload = addEventListener('click', function() {
   });
 });
 
-var moreInfoFindApps = document.querySelector('.mdl-cell.mdl-cell--3-col.mdl-cell--4-col-tablet.mdl-cell--4-col-phone.mdl-card mdl-shadow--3dp')[3]
+var moreInfoFindApps = document.querySelector('.mdl-card__actions')[3]
 moreInfoFindApps = addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
