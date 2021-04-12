@@ -1,6 +1,6 @@
 /* MEIO {BONECO ANDROID LINK} */
 // DUVIDA EM COMO REPRESENTAR A CLASSE (LINK CREATE CHAR): REPRESENTAR COMO $0?
-var beTogether = document.querySelector(".logo-font-android-create-character");
+var beTogether = document.querySelector("#androidChar");
 beTogether.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -13,7 +13,7 @@ beTogether.addEventListener('click', function() {
 /* MEIO BONECO ANDROID LINK FIM */
 
 /* MEIO BONECO ANDROID BOTAO */
-var beTogetherButtom = document.querySelector(".android-fab-mdl-button-mdl-button--colored-mdl-js-button-mdl-button--fab-mdl-js-ripple-effect");
+var beTogetherButtom = document.querySelector("#blueButtom");
 beTogetherButtom.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({

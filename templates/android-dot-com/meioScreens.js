@@ -1,8 +1,8 @@
 /* MEIO ANDROID SCREENS */
 
 // DUVIDA: COMO FAZER PARA querySelector("IMAGEM DO RELOGIO") Ja que tem a mesma classe
-var screensWear = document.querySelector(".android-wear-android-screen");
-screensWear.addEventListener('click', function() {
+var screensWear = document.querySelector(".android-wear.android-screen");
+screensWear.addEventListener('click', function(){
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
@@ -12,7 +12,7 @@ screensWear.addEventListener('click', function() {
   });
 });
 
-var screensPhone = document.querySelector(".android-phone-android-screen");
+var screensPhone = document.querySelector(".android-phone.android-screen");
 screensPhone.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -23,7 +23,7 @@ screensPhone.addEventListener('click', function() {
   });
 });
 
-var screensTablets = document.querySelector(".android-tablet-android-screen");
+var screensTablets = document.querySelector(".android-tablet.android-screen");
 screensTablets.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -34,7 +34,7 @@ screensTablets.addEventListener('click', function() {
   });
 });
 
-var screensTv = document.querySelector(".android-tv-android-screen");
+var screensTv = document.querySelector(".android-tv.android-screen");
 screensTv.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -45,7 +45,7 @@ screensTv.addEventListener('click', function() {
   });
 });
 
-var screensAuto = document.querySelector(".android-auto-android-screen");
+var screensAuto = document.querySelector(".android-auto.android-screen");
 screensAuto.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
