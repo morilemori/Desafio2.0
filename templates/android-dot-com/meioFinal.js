@@ -27,7 +27,7 @@ customise.addEventListener('click', function(){
 /* MEIO MORE INFO */
 
 var moreInfoSwitch = document.querySelectorAll(".mdl-card__actions")[0];
-moreInfoSwitch.addEventListener("click", function() {
+moreInfoSwitch.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
@@ -38,7 +38,7 @@ moreInfoSwitch.addEventListener("click", function() {
 });
 
 var moreInfoAndroidify = document.querySelectorAll(".mdl-card__actions")[1];
-moreInfoAndroidify.addEventListener("click", function() {
+moreInfoAndroidify.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
@@ -49,7 +49,7 @@ moreInfoAndroidify.addEventListener("click", function() {
 });
 
 var moreInfoDownload = document.querySelectorAll(".mdl-card__actions")[2];
-moreInfoDownload.addEventListener("click", function() {
+moreInfoDownload.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
@@ -60,7 +60,7 @@ moreInfoDownload.addEventListener("click", function() {
 });
 
 var moreInfoFindApps = document.querySelectorAll(".mdl-card__actions")[3];
-moreInfoFindApps.addEventListener("click", function() {
+moreInfoFindApps.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     'event': 'generic:event',
