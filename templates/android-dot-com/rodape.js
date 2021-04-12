@@ -1,12 +1,6 @@
 
 
 /* IMAGENS DE RODAPE */
-/*
-var imagensRodape = document.querySelectorAll(".mdl-mega-footer--social-btn");
-var img1 = imagensRodape[0];
-var img2 = imagensRodape[1];
-var img3 = imagensRodape[2];
-*/
 
 var img1 = document.querySelectorAll(".mdl-mega-footer--social-btn")[0];
 img1.addEventListener('click', function() {
@@ -56,7 +50,7 @@ topo.addEventListener('click', function() {
 /* TOPO FIM */
 
 /* MENU RODAPE */
-var versao = document.querySelector(".android-link.android-link-menu.mdl-typography--font-light")[0];
+var versao = document.querySelector("#version-dropdown");
 versao.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
@@ -67,7 +61,7 @@ versao.addEventListener('click', function() {
   });
 });
 
-var forDevelopers = document.querySelector(".android-link.android-link-menu.mdl-typography--font-light")[1];
+var forDevelopers = document.querySelector("#developers-dropdown");
 forDevelopers.addEventListener('click', function() {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
